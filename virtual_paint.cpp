@@ -15,10 +15,9 @@ vector<vector<int>> newPoints; // to store all points
 
 ///////////////////// COLOR VALUES ////////////////////////////////
 // hmin, smin, vmin hmax, smax, vmax
-vector<vector<int>> myColors{ {43,175,0,125,255,255},{39,137,124,179,255,255}}; // Purple
-// Green
-vector<Scalar> myColorValues{ {255,0,0},{255, 153, 255}}; // Purple
-// Green
+vector<vector<int>> myColors{ {43,175,0,125,255,255},{39,137,124,179,255,255}}; // pink
+vector<Scalar> myColorValues{ {255,0,0},{255, 153, 255}}; // blue
+
 ////////////////////////////////////////////////////////////////////
 
 Point getContours(Mat image) {
